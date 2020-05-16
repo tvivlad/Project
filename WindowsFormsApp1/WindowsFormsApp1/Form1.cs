@@ -35,7 +35,7 @@ namespace WindowsFormsApp1
         private void button2_Click(object sender, EventArgs e)
         {
             label1.Text = "Нажата вторая кнопка";
-            textbox1.Text= "Нажата вторая кнопка";
+            textBox1.Text= "Нажата вторая кнопка";
         }
     }
 }
