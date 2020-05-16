@@ -37,6 +37,7 @@ namespace WindowsFormsApp1
             label1.Text = "Нажата вторая кнопка";
             textBox1.Text= "Нажата вторая кнопка";
             textBox1.Text="Была нажата вторая кнопка";
+            label1.Text = "Была нажата вторая кнопка!";
         }
     }
 }
