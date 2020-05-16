@@ -22,7 +22,7 @@ namespace WindowsFormsApp1
         {
             Form1.ActiveForm.Text = "Hello World!!!";
             Mes mes1 = new Mes();
-            Form1.ActiveForm.Text = mes1.libmes();        
+            Form1.ActiveForm.Text = mes1.libmes();
 
         }
 
@@ -30,7 +30,6 @@ namespace WindowsFormsApp1
         {
 
         }
-
 
     }
 }
