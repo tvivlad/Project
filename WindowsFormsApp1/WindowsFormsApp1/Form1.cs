@@ -23,7 +23,7 @@ namespace WindowsFormsApp1
             Form1.ActiveForm.Text = "Hello World!!!";
             Mes mes1 = new Mes();
             Form1.ActiveForm.Text = mes1.libmes();
-       
+            textBox1.Text = "Hello World!!!";
 
         }
 
@@ -32,6 +32,13 @@ namespace WindowsFormsApp1
 
         }
 
-
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Нажата вторая кнопка";
+            textBox1.Text= "Нажата вторая кнопка";
+            textBox1.Text="Была нажата вторая кнопка";
+            label1.Text = "Была нажата вторая кнопка!";
+            
+        }
     }
 }
