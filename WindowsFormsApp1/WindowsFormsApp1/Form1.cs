@@ -24,6 +24,7 @@ namespace WindowsFormsApp1
             Mes mes1 = new Mes();
             Form1.ActiveForm.Text = mes1.libmes();
             textBox1.Text = "После изменения";
+            textBox1.Text = "Изменение из ГитХаба";
 
         }
 
