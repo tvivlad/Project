@@ -1,12 +1,21 @@
 ﻿using System;
 
-namespace ClassLibrary1
+namespace Calc
 {
-    public class Mes
+    public class Calcul
     {
-        public String libmes()
+        public int sum(int x, int y)
         {
-            return "Привет из Библиотеки";
+            return x + y;
+        }
+        public int dif(int x, int y)
+        {
+            return x - y;
+        }
+
+        public int mult(int x, int y)
+        {
+            return x * y;
         }
     }
 }
