@@ -58,7 +58,7 @@ jobs:
     env:
       Solution_Name: WindowsFormsApp1.sln                         # Replace with your solution name, i.e. MyWpfApp.sln.
       Test_Project_Path: UnitTestProject1/UnitTestProject1.csproj                 # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
-      Wap_Project_Directory: WindowsFormsApp1    # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
+      Wap_Project_Directory: Project/WindowsFormsApp1    # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
       Wap_Project_Path: WindowsFormsApp1/WindowsFormsApp1.csproj                   # Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.
 
     steps:
